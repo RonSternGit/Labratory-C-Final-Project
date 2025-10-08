@@ -1,0 +1,27 @@
+
+General comments for clarification:
+
+
+1. The code won't work for rounded quotation marks: “ and ” .
+   Therefore it is necessary that the input file contains only regular quotation marks: "
+
+2. I used the word 'encode' to describe the process of parsing a file line and saving its attributes in an encoded_instructions structure.
+   The word 'encode' is not related to the conversion of a 'word' to its machine code.
+
+3. I used 2 global variables:
+   - current_error_number: to keep track of the current error being processed.
+   - current_line_number: to keep track of the current line being processed.
+   I was allowed to use *several* global variables in this task. The tables are not global.
+   I decided to use them in order not to give them as an input for almost every function I wrote (every function that may print an error message).
+   (Therefore it is easy to change the code to not use these 2 global variables [as mentioned above]).
+
+4. It is important to mention that 'R0',...,'R7' *and* 'r8','r9'... are defined as a labels!
+
+5. Errors are printed in the following order:
+   - First, errors in the pre-assembler stage.
+   - *If no errors in the pre-assembler stage* errors in the first pass stage.
+   - *If no errors in the pre-assembler stages* errors in the second pass stage.
+
+6. Notice that: Windows uses CRLF (\r\n) for line endings while Linux uses just LF (\n).
+   Therefore if the source files were created on Windows or transferred from a Windows system to Ubuntu
+   without proper line ending conversion, this can cause issues.
