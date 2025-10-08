@@ -24,6 +24,33 @@ All files are written in C (`.c`) and header files (`.h`):
 
 ## 🚀 How to Compile and Run
 
+To compile the assembler:
+
 ```bash
 gcc -Wall -o assembler *.c
+```
+
+To run the assembler on an input file:
+
+```bash
 ./assembler example.as
+```
+
+Make sure to provide a valid `.as` file containing assembly code.
+
+Example input files and sample outputs are available in the folders above.  
+These include `.as` files with runnable assembly code and the corresponding generated output files (`.ob`, `.ent`, `.ext`) for reference.
+
+## 📚 Technologies
+
+C (compiled with GCC)  
+Standard libraries only
+
+## 🎓 Academic Context
+
+This project was developed as part of the Systems Programming Lab course at the Open University of Israel. It demonstrates understanding of low-level programming, memory management, and multi-pass parsing techniques.
+
+## 👤 Author
+
+Ron Stern  
+Computer Science student at the Open University of Israel
