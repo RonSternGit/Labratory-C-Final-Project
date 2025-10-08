@@ -38,6 +38,8 @@ To run the assembler on an input file:
 
 Make sure to provide a valid `.as` file containing assembly code.
 
+## 📂 Input and Output Examples
+
 Example input files and sample outputs are available in the folders above.  
 These include `.as` files with runnable assembly code and the corresponding generated output files (`.ob`, `.ent`, `.ext`) for reference.
 
