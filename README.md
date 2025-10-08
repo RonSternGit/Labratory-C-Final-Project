@@ -11,11 +11,14 @@ This project is a simplified assembler written in C, developed as part of a syst
 
 ## 📁 File Structure
 
-- `main.c` – Entry point of the program
-- `parser.c` / `parser.h` – Handles parsing logic
-- `symbol_table.c` – Manages symbols and labels
-- `utils.c` – Helper functions
-- `assembler.c` – Core assembler logic
+- `main.c` – Entry point of the assembler
+- `first_pass.c` / `first_pass.h` – Handles the first parsing pass
+- `second_pass.c` / `second_pass.h` – Handles the second parsing pass
+- `symbol_table.c` / `symbol_table.h` – Manages symbols and labels
+- `utils.c` / `utils.h` – Helper functions and utilities
+- `output.c` / `output.h` – Generates output files (.ob, .ent, .ext)
+- `parser.c` / `parser.h` – Parses assembly lines and instructions
+- `errors.c` / `errors.h` – Error handling and reporting
 
 ## 🚀 How to Run
 
