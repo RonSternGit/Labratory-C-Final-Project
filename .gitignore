@@ -1,0 +1,13 @@
+# Object files
+*.o
+
+# Executables
+*.out
+*.exe
+
+# Logs and temp files
+*.log
+*.tmp
+
+# macOS system files
+.DS_Store
