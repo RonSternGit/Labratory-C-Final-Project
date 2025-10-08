@@ -1,0 +1,3 @@
+C:/z_User_Stern_2017-06/User_Keep/Ron-Keep/Uni/קורסים/2025/2025א/מעבדה בתכנות מערכות/ממנים/Project_2025/cmake-build-debug/CMakeFiles/Project_2025.dir
+C:/z_User_Stern_2017-06/User_Keep/Ron-Keep/Uni/קורסים/2025/2025א/מעבדה בתכנות מערכות/ממנים/Project_2025/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/z_User_Stern_2017-06/User_Keep/Ron-Keep/Uni/קורסים/2025/2025א/מעבדה בתכנות מערכות/ממנים/Project_2025/cmake-build-debug/CMakeFiles/rebuild_cache.dir
